@@ -23,7 +23,7 @@ function AddInput({
     }
 
     return (
-        <div className="input-container">
+        <div className="input-container" data-testid='addinput'>
             <input 
                 className="input" 
                 value={todo} 
